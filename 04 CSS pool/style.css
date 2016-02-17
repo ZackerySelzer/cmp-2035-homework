@@ -1,19 +1,14 @@
-<html>
-<head>
-<title>Introducing CSS</title>
-
-
-
-
-</head>
-<body {
-
+body {
+font-family: verdana;
 }
-
-p {
-
-}
-
 h1 {
-
+color: #ee3e80; 
+font-size:16px;
 }
+h2 {
+color: red;
+font-size:14px;
+}
+p {
+color: rgb(245.176.204);
+font-size:12px;
