@@ -4,11 +4,14 @@ font-family: verdana;
 h1 {
 color: #ee3e80; 
 font-size:16px;
+font-weight: bold;
 }
 h2 {
 color: red;
 font-size:14px;
+font-weight: bold;
 }
 p {
 color: rgb(245.176.204);
 font-size:12px;
+}
