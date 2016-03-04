@@ -130,8 +130,9 @@ footer a:link, footer a:visited {
 	right: 0;
 	}
 .sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
+	font: 12px verdana, sans-serif; 
+	background: rgba(0,0,0,0.2) top left repeat-y;
+
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
