@@ -14,7 +14,7 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
+	font: 75% verdana, sans-serif;
 	line-height: 1.88889;
 	color: #ffffff; 
 	background: #8B2500 url(blossoms.jpg) no-repeat bottom right; 
@@ -27,7 +27,7 @@ p {
 	}
 	h3 { 
 	font: avenir, futura, sans-serif;
-	font-size: 24px;
+	font-size: 26px;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
@@ -65,9 +65,10 @@ abbr {
 	width: 100%;
 	}
 
-header h1 { 
+header h1. { 
 	background: transparent url(h1.gif) no-repeat top left;
-	margin-top: 10px;
+	border-width: 2px;
+	margin: 30px;
 	display: block;
 	width: 219px;
 	height: 87px;
@@ -79,6 +80,8 @@ header h1 {
 	}
 header h2 { 
 	background: transparent url(h2.gif) no-repeat top left; 
+	border-width: 2px;
+	bodrder-style: solid;
 	margin-top: 58px; 
 	margin-bottom: 40px; 
 	width: 200px; 
@@ -98,7 +101,6 @@ header {
 	clear: both; 
 	margin: 20px 20px 20px 10px; 
 	width: 160px; 
-	float: left;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
@@ -110,7 +112,7 @@ header {
 	padding: 0px 10px 0 10px;
 	}
 .supporting {	
-	padding-left: 10px; 
+	padding-left: 0px; 
 	margin-bottom: 40px;
 	}
 
@@ -179,7 +181,7 @@ footer a:link, footer a:visited {
 	list-style-type: none;
 	}
 .sidebar li a:link {
-	color: #988F5E;
+	color: #6682b5;
 	}
 .sidebar li a:visited {
 	color: #B3AE94;
