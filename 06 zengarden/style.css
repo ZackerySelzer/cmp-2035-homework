@@ -99,11 +99,11 @@ header {
 
 .summary {
 	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
+	margin: 20px 20px 50px 10px; 
+	width: 180px; 
 	}
 .summary p {
-	font: italic 1.1em/2.2 georgia; 
+	font: italic 1.3em/1.5 georgia; 
 	text-align: center;
 	}
 
