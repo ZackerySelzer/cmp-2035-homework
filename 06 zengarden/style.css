@@ -24,11 +24,22 @@ body {
 p { 
 	margin-top: 0; 
 	text-align: justify;
+
+	}
+	#zen {height:300px
+		width: 200px;
+		height: 75%
+		width: 75%;
+		background-color: rgba(0,0,0,0.5);}
+	h1 {color: red;
+		font-size:40px;
+		border-width: 0px;
+	border-style: solid;
 	}
 	h3 { 
 	font: avenir, futura, sans-serif;
 	font-size: 25px;
-	letter-spacing: 1px; 
+	letter-spacing: 5px; 
 	margin-bottom: 0; 
 	color: #7D775C;
 	border-width: 2px;
