@@ -14,7 +14,7 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 82% verdana, sans-serif;
+	font: 85% verdana, sans-serif;
 	line-height: 1.88889;
 	color: #ffffff; 
 	background: #8B2500 url(blossoms.jpg) no-repeat bottom right; 
@@ -27,7 +27,7 @@ p {
 	}
 	h3 { 
 	font: avenir, futura, sans-serif;
-	font-size: 26px;
+	font-size: 25px;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
