@@ -9,36 +9,39 @@
 
 
 /* basic elements */
-html {
-	margin: 0;
-	padding: 0;
-	}
-body { 
-	font: 85% verdana, sans-serif;
+html 
+body {
 	line-height: 1.88889;
-	color: #ffffff; 
-	background: #8B2500 url(blossoms.jpg) no-repeat bottom right; 
+	color: rgba(255,102,0, 0.8);
+	background: #8B2500 url(sunset.jpg); 
 	margin: 0; 
 	padding: 0;
 	}
+h1 {font-family: helvetica;
+	font-size: 45px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	width: 485px;
+	height: 105px;
+	margin: 30px auto 10px auto;
+	border-color: #ffffff;
+	border-width: 4px;
+	border-bottom-style: ridge;
+	padding-bottom: 0px;
+	}
+	h1:first-letter {font-size: 70px
+	}
 p { 
-	margin-top: 0; 
+	font-size: 19px;
+	margin-top: 20; 
 	text-align: justify;
-
+	color: #ffffff;
 	}
-	#zen {height:300px
-		width: 200px;
-		height: 75%
-		width: 75%;
-		background-color: rgba(0,0,0,0.5);}
-	h1 {color: red;
-		font-size:40px;
-		border-width: 0px;
-	border-style: solid;
-	}
+	
+	
 	h3 { 
 	font: avenir, futura, sans-serif;
-	font-size: 25px;
+	font-size: 35px;
 	letter-spacing: 5px; 
 	margin-bottom: 0; 
 	color: #7D775C;
@@ -64,42 +67,31 @@ abbr {
 
 
 /* specific divs */
-.page-wrapper { 
-	background: url(zen-bg.jpg) no-repeat top left; 
-	padding: 0 175px 0 110px;  
+.page-wrapper 
+     {
+	padding: 0 175px 0 110px; 	
+	border-width:20px;
+	border-style: solid; 
 	margin: 0; 
 	position: relative;
 	}
 
-.intro { 
+.intro {  
 	min-width: 470px;
 	width: 100%;
 	}
 
-header h1. { 
-	background: transparent url(h1.gif) no-repeat top left;
-	border-width: 2px;
-	margin: 30px;
-	display: block;
-	width: 219px;
-	height: 87px;
+
+	
+header h2 { 
+	font-size: 33px;
+	background: rgba(0,0,0,0.2);
+	color: #6682b1;
+	border-width: 0px;
+	border-style: solid;
+	margin: 40px auto 20px auto;
 	float: left;
 
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header h2 { 
-	background: transparent url(h2.gif) no-repeat top left; 
-	border-width: 2px;
-	bodrder-style: solid;
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 200px; 
-	height: 18px; 
-	float: right;
-
-	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
 	}
@@ -110,11 +102,12 @@ header {
 
 .summary {
 	clear: both; 
-	margin: 20px 20px 50px 10px; 
-	width: 180px; 
-	}
+	margin: 20px 20px 50px 10px;
+ } 
+
 .summary p {
-	font: italic 1.3em/1.5 georgia; 
+	font-size: 15px;
+	font: italic 1.2em/1.4 georgia; 
 	text-align: center;
 	}
 
@@ -127,11 +120,13 @@ header {
 	margin-bottom: 40px;
 	}
 
-footer { 
+footer {
+margin-top: 50px; 
 	text-align: center; 
 	}
 footer a:link, footer a:visited { 
-	margin-right: 20px; 
+	margin-right: 20px;
+	font-size: 20px;
 	}
 
 .sidebar {
@@ -145,7 +140,8 @@ footer a:link, footer a:visited {
 	background: rgba(0,0,0,0.2) top left repeat-y;
 
 	padding: 10px; 
-	margin-top: 150px; 
+	margin-top: 170px; 
+	height: 2000px;
 	width: 130px; 
 	}
 .sidebar h3.select { 
@@ -201,8 +197,6 @@ footer a:link, footer a:visited {
 
 
 .extra1 {
-	background: transparent url(cr2.gif) top left no-repeat; 
-	position: absolute; 
 	top: 40px; 
 	right: 0; 
 	width: 148px; 
